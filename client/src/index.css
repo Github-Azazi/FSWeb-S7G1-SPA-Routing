@@ -52,14 +52,15 @@ body {
   position: relative;
   width: 75%;
   margin: 1rem auto;
-}
+  }
 .save-button {
   position: absolute;
   top: 25px;
   right: 25px;
   border: 1px solid grey;
-  padding: 5px 10px;
-  background-color: lightseagreen;
+  padding: 5px 20px;
+  background-color: rgb(218, 218, 52);
+  border-radius: 5px;
 }
 .save-button:hover {
   background-color: green;
@@ -69,4 +70,15 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  border-radius: 10px;
+}
+.home-button:hover {
+  background-color: rgb(49, 0, 128);
+  color: white;
+}
+
+h3 {
+  text-decoration: underline; 
+  text-decoration-color: orange;
+  font-weight: bold; 
 }
